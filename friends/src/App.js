@@ -27,6 +27,7 @@ componentDidMount() {
   render() {
     return (
       <div className="App">
+      <h1>Friends:</h1>
         <FriendList friends={this.state.friends} />
       </div>
     );

@@ -48,3 +48,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+.linksCon {
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+}
+
+.deleteBtn {
+  margin-left: 20px;
+}

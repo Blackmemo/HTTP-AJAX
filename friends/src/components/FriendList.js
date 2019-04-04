@@ -5,7 +5,12 @@ const FriendList = props => {
     return(
         <div className="list">
             {props.friends.map(friend => (
-                <Friend friend={friend} key={friend.id} />
+                <Friend
+                deleteFriend={props.deleteFriend}
+                setActiveFriend={props.setActiveFriend}
+                friends={props.friends}
+                friend={friend}
+                key={friend.id} />
             ))}
         </div>
     );
